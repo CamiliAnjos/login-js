@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/login.css" />
+    <title>Sneep | Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sneep</h1>
+      <h2>Bem vindo ao Sneep <br />Seu diário virtual!</h2>
+      
+        <form id="form">
+          <h2>  Preencha seus dados para acessar a <br />sua conta</h2>
+
+          <div class="box-form">
+            <label for="email">Usuário</label>
+            <input type="email" name="email" id="email" class="required"/>
+            <span class="span-require">Digite um email válido</span>
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" class="required"/>
+            <span class="span-require">Digite uma senha com no minimo 8 caracteres</span>
+
+            <button id="btn" type="submit">Acessar</button>
+          </div>
+
+          <div class="link-cadastro">
+            <a href="./register.html">Não tem uma conta? Cadastre-se</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./validacaoLogin.js"></script>
+</html>
